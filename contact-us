@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="header">
+        <img class="resize" src="Images/hb-logo.png" alt="Homegrown Band Logo">
+        <ul>
+            <li><a href="index">Home</a></li>
+        </ul>
+    </div>
+</body>
+
+<form>
+  <label for="your-name">Your Name</label>
+  <input type="text" id="your-name">
+  <label for="write-us">Write Us</label>
+  <textarea id="write-us"></textarea>
+  <label for="newsletter">Get Newsletter?</label>
+  <input type="checkbox" id="newsletter">
+  <input type="submit" value="Click to Submit">
+</form>
+
+</html>
