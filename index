@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="header">
+        <img class="resize" src="Images/hb-logo.png" alt="Homegrown Band Logo">
+        <ul>
+            <li><a href="index">Home</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+      <h1>News</h1>
+      <ul class="georgia-news">
+        <li>
+          <img src="Images/ga-cover-resize.jpg">
+          <h2>"Georgia" EP Available Now!</h2>
+          <p>...</p></li>
+      </ul>
+    </div>
+</body>
+
+</html>

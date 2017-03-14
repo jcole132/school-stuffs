@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  background: #000000 url(Images/fancy-pattern.png);
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  background: #dddddd;
+  padding: 0 0 5px 0;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto 0 auto;
+    padding-bottom: 20px;
+}
+
+img.resize {
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.header li {
+    display: inline;
+}
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.main-content {
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+  background: #888888;
+}
+
+.main-content h1 {
+  background-color: #dddddd;
+  padding: 15px 0 15px 10px;
+  border-bottom: #ffffff solid 3px;
+}
+
+.georgia-news {
+  padding: 0 0 25 25;
+  height: 200px;
+  list-style-type: none;
+}
+
+.georgia-news img {
+  float: left;
+  padding-right: 15px;
+}
+
+.georgia-news h2 {
+  text-decoration: underline;
+}
