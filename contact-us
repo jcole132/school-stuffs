@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link type="text/css" rel="stylesheet" href="main.css">
+    <link type="text/css" rel="stylesheet" href="contact-us.css">
 </head>
 
 <body>
@@ -9,18 +9,31 @@
         <img class="resize" src="Images/hb-logo.png" alt="Homegrown Band Logo">
         <ul>
             <li><a href="index">Home</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
         </ul>
     </div>
-</body>
 
-<form>
-  <label for="your-name">Your Name</label>
-  <input type="text" id="your-name">
-  <label for="write-us">Write Us</label>
-  <textarea id="write-us"></textarea>
-  <label for="newsletter">Get Newsletter?</label>
-  <input type="checkbox" id="newsletter">
-  <input type="submit" value="Click to Submit">
-</form>
+    <form>
+
+      <div class="group">
+        <label for="your-name">Your Name:</label>
+        <input type="text" id="your-name">
+      </div>
+
+      <div class="group">
+        <label for="write-us">Write Us:</label>
+        <textarea id="write-us"></textarea>
+      </div>
+
+      <div class="news-box">
+        <label for="newsletter">Get Newsletter?</label>
+        <input type="checkbox" id="newsletter">
+      </div>
+
+    <input type="submit" value="Click to Submit">
+
+    </form>
+
+</body>
 
 </html>
