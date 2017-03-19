@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+
+body {
+  background: #000000 url(Images/fancy-pattern.png);
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  background: #dddddd;
+  padding: 20px 0 20px 0;
+  margin-bottom: 50px;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto 20px auto;
+    padding-bottom: 20px;
+    border-bottom: #000000 solid 3px;
+}
+
+img.resize {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.header ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.header li {
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+form {
+  text-align: center;
+}
+
+.group input {
+  float: right;
+}
+
+.group textarea {
+  float: right;
+}
+
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* IE6&7 */
+}
+
+label, input, textarea {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.group {
+  background-color: #dddddd;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.group label {
+  padding-right: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.group input {
+  width: 500px;
+  position: relative;
+  top: 0;
+}
+
+.group input[type=text] {
+  padding: 7px;
+  font-size: 18px;
+}
+
+input[type=submit] {
+  width: 120px;
+  font-size: 30px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.group textarea {
+  width: 500px;
+  height: 200px;
+  padding: 7px;
+  font-size: 14px;
+  position: relative;
+  top: 0;
+}
+
+label[for=newsletter] {
+  background: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.news-box {
+  max-width: 200px;
+  display: inline;
+}
