@@ -6,20 +6,25 @@
 
 <body>
     <div class="header">
-        <img class="resize" src="Images/hb-logo.png" alt="Homegrown Band Logo">
+      <a href="index">
+        <img class="logo" src="Images/hb-logo-resize.png"/></a>
         <ul>
             <li><a href="index">Home</a></li>
+            <li><a href="contact-us">Contact Us</a></li>
         </ul>
     </div>
 
     <div class="main-content">
       <h1>News</h1>
-      <ul class="georgia-news">
-        <li>
-          <img src="Images/ga-cover-resize.jpg">
+      <div class="group">
+        <div class="content-container">
+          <img src="Images/ga-cover-resize.jpg"/>
+        </div>
+        <div class="content-container">
           <h2>"Georgia" EP Available Now!</h2>
-          <p>...</p></li>
-      </ul>
+          <p>...</p>
+        </div>
+      </div>
     </div>
 </body>
 
