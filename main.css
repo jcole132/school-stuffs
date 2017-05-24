@@ -1,34 +1,34 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('http://scottjehl.com/picturefill')
 
 html, body, h1, h2, h3, p, ol, ul, li, a {
   padding: 0;
   border: 0;
   margin: 0;
-  font-size: 100%;
+  font-size: 16px;
   font: inherit;
 }
 
 body {
-  background: #000000 url(Images/fancy-pattern.png);
+  background: #000000 url(Images/fancy-pattern.png) fixed;
+  font-size: 62.5%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .header {
   font-family: 'Open Sans', sans-serif;
   background: #dddddd;
-  padding: 20px 0 20px 0;
-  margin-bottom: 50px;
+  padding: 10px 0 20px;
+  margin: 5% 0;
 }
 
-.header img {
-    display: block;
-    margin: 0 auto 20px auto;
-    padding-bottom: 20px;
-    border-bottom: #000000 solid 3px;
-}
-
-img.resize {
-  max-width: 50%;
-  max-height: 50%;
+.logo {
+  display: block;
+  height: auto;
+  width: 100%;
+  text-indent: -9999px;
+  margin: 0 auto 15px;
 }
 
 .header ul {
@@ -39,94 +39,87 @@ img.resize {
 
 .header li {
     display: inline;
+    padding: 0 10px;
+    border-right: 2px solid #A47F53;
+}
+
+.header li:last-child {
+  border-right: 0;
 }
 
 .header a {
     color: #000000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.8em;
+}
+
+.header a:hover {
+  color: #A47F53;
 }
 
 .main-content {
   font-family: 'Open Sans', sans-serif;
   display: block;
   background: #888888;
+  margin-bottom: 5%;
 }
 
 .main-content h1 {
   background-color: #dddddd;
   padding: 15px 0 15px 25px;
   border-bottom: #ffffff solid 3px;
-  font-size: 32px;
+  font-size: 3.2em;
   font-weight: bold;
+  margin: 0;
 }
 
-.georgia-news {
-  padding: 15 0 15 25;
-  height: 200px;
-  list-style-type: none;
+.group img {
+  /*float: left;
+  padding: 25px;*/
 }
 
-.georgia-news img {
-  float: left;
-  padding-right: 25px;
+.group:before, .group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  zoom: 1; /* IE6&7 */
 }
 
-.georgia-news h2 {
+.group h2 {
   text-decoration: underline;
-  font-size: 24px;
+  font-size: 2.4em;
+  margin: 0;
 }
 
-.georgia-news p {
-  font-size: 16px;
+.content-container {
+  float: left;
+  padding: 25px;
 }
 
-label, input, textarea {
-  font-family: 'Open Sans', sans-serif;
-  color: #000000;
-  display: block;
+.group .content-container:first-child {
+  padding-right: 0;
 }
 
-label {
-  margin-bottom: 10px;
-  text-align: center;
-  background-color: #dddddd;
-  font-size: 26px;
-  font-weight: bold;
-}
+@media screen and (max-width: 651px) {
 
-input {
-  margin: 0 auto 25px auto;
-  width: 500px;
-}
+  .group .content-container:first-child {
+    padding-bottom: 0;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    padding-left: 0;
+  }
 
-input[type=text] {
-  border: 3px solid #dddddd;
-  padding: 7px;
-  font-size: 18px;
-}
-
-input[type=submit] {
-  width: 120px;
-  font-size: 30px;
-}
-
-textarea {
-  margin: 0 auto 25px auto;
-  border: 3px solid #dddddd;
-  padding: 7px;
-  width: 500px;
-  height: 200px;
-  font-size: 14px;
-}
-
-input[type=checkbox], label[for=newsletter] {
-  display: inline;
-}
-
-label[for=newsletter] {
-  background: none;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: normal;
+  .group .content-container:nth-child(2) {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-top: #ffffff solid 3px;
+    width: 100%;
+  }
 }
