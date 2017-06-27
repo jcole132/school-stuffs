@@ -26,14 +26,20 @@
         <textarea id="write-us"></textarea>
       </div>
 
+      <div class="group">
+        <p id="name-return"></p>
+      </div>
+
       <div class="news-box">
         <label for="newsletter">Get Newsletter?</label>
         <input type="checkbox" id="newsletter">
       </div>
 
-      <input type="submit" value="Click to Submit">
+      <input type="button" onclick="insertName()" value="Click to Submit">
 
     </form>
+
+    <script src="contact-us.js" type=text/javascript></script>
 
 </body>
 
